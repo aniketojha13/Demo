@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled HTML Forms</title>
+
+</head>
+<body>
+
+    <form>
+        <h1>HTML FORMS</h1>
+        
+        <div class="form-group">
+            <label for="Name">Name</label>
+            <input id="Name" type="text" placeholder="Enter name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Phone">Phone</label>
+            <input id="Phone" type="tel" placeholder="Enter phone" required>
+        </div>
+
+        <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input id="dob" type="date" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" placeholder="Enter email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="pass">Password</label>
+            <input id="pass" type="password" placeholder="Enter password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+                <option value="" disabled selected>Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Plan</p>
+            <div class="radio-group">
+                <input id="Basic" type="radio" name="Subscription" value="Basic">
+                <label for="Basic">Basic</label>
+
+                <input id="Super" type="radio" name="Subscription" value="Super">
+                <label for="Super">Super</label>
+
+                <input id="Premium" type="radio" name="Subscription" value="Premium">
+                <label for="Premium">Premium</label>
+            </div>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

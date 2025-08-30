@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms</title>
+    <style>
+         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 30px;
+            width: 400px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            transition: 0.3s border-color;
+        }
+
+        input:focus,
+        select:focus {
+            border-color: #5b9bd5;
+            outline: none;
+        }
+
+        .radio-group {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+        }
+
+        .radio-group label {
+            font-weight: 500;
+            color: #444;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #5b9bd5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #4a89c9;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <h1>HTML FORMS</h1>
+    <div>
+        <label for="Name">Name</label>
+        <input id= Name type="text" placeholder="Enter name" required>
+
+    </div>
+    <div> 
+        <label for="Phone">Phone</label>
+        <input id= phone type="tel" placeholder="Enter Phone" required>
+
+    </div>
+    <div>
+        <label for="dob">Date of birth</label>
+        <input id = dob type="date" placeholder="" required>
+
+    </div>
+    <div>
+        <label for="email">E-mail</label>
+        <input id= email type="email" placeholder="Enter E-mail" required>
+
+    </div>
+    <div>
+        <label for="pass">password</label>
+        <input id= pass type="password" placeholder="Enter password" required>
+
+    </div>
+    <div>
+        <label for="gender">Gender</label>
+        <select id= gender type="tel" placeholder="Enter Phone" required>
+            <option value="select" disabled selected >Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+
+    </div>
+    <p>Subscription Plan</p>
+    
+    <div>
+        <input id="Basic" type="radio" name="Subscription" value="Basic">
+        <label for="Basic">Basic</label>
+       
+        <input id="Super" type="radio" name="Subscription" value="Super">
+         <label for="Super">Super</label>
+        
+        <input id="Premium" type="radio" name="Subscription" value="Premium">
+        <label for="Premium">Premium</label>
+    </div>
+        
+ 
+</body>
+</html>

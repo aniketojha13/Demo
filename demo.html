@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project1</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f2ea;
+            color: #333;
+        }
+
+        header {
+            background-color: #fdf6e8;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 3px solid #8b6b18c8;
+        }
+
+        .logo-left,
+        .logo-right {
+            height: 70px;
+        }
+
+        .header-center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            flex: 1;
+        }
+
+        .header-center h1 {
+            margin: 0;
+            font-size: 1.6em;
+            color: #1a1a1a;
+        }
+
+        .header-center h4 {
+            margin: 5px 0 0 0;
+            font-size: 1em;
+            color: #444;
+        }
+
+        main {
+            padding: 30px;
+            background-color: #895a22;
+            padding: 5px 30px;
+            display: flex;
+            align-items: center;
+            border-top: 2px solid #a67504;
+            color: #fff;
+            font-weight: 500;
+            font-size: 1em;
+        }
+
+        main img {
+            margin-right: 10px;
+        }
+
+        footer {
+  background-color:   #f6f4f0;
+  padding: 40px 20px;
+  border-top: 4px solid #ffd700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+footer h2 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.footer-box {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px 25px;
+  background-color: #ffffff;
+  border: 2px solid #eadda9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fffef5;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #f7f5f1;
+  box-shadow: 0 0 4px #ffe066;
+}
+
+button {
+  width: 10%;
+  padding: 10px;
+  background-color: #458cb8;
+  border: none;
+  border-radius: 6px;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffcc00;
+}
+
+
+
+            
+{color: #333}
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <img class="logo-left"
+            src="https://ipu.samarth.ac.in/uploads/uims/765ee678ce6dcc5be8b5d7df9196b861aeb4a569f74b410e2f0346f9c489d78b1_1695120595_17873173_logo.png" width="100"
+            alt="IPU Logo" />
+
+        <div class="header-center">
+            <h1>Guru Gobind Singh Indraprastha University, Delhi</h1>
+            <h4>Common Registration for GGSIPU 2025</h4>
+        </div>
+
+        <img class="logo-right" src="https://admissions.nic.in/vci/applicant/Image/e-counsellig-logo2020.png"
+            alt="E-Counselling Logo" />
+    </header>
+
+    <main>
+        <img src="https://png.pngtree.com/element_our/20190601/ourmid/pngtree-white-house-architecture-design-image_1335029.jpg"
+            width="20" alt="Home Icon">
+        <span>Home</span>
+    </main>
+
+    <footer>
+    <div><h2>  Registered Candidates Sign-in  </h2></div>
+
+    <div class="form-group">
+            <label for="Examination">Examination : </label>
+            <select id="Examination" required>
+                <option value="" >Common Registration for GGSIPU 2025
+                </option></select>
+        </div>
+        <div>
+            <label for="user "> User ID : </label>
+            <input type="user" id="user" required>
+        
+           
+        </div>
+        <div>
+            <label for="pass">Password : </label>
+            <input type="password" name="Password" id="pass" required>
+            
+        </div>
+        <div>
+            <label for="pin">Security Pin : </label>
+            <input type="password" name="Password" id="pin" required>
+        </div>
+
+ <div><button>Sign-in </button></div>
+
+
+
+
+
+
+
+
+
+
+    </footer>
+
+</body>
+
+</html>
